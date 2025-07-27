@@ -30,7 +30,7 @@ export default function WebBook() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-black text-white overflow-hidden relative">
+        <div className="min-h-screen bg-[#111] text-white overflow-hidden relative">
 
             {/* Buku Flip */}
             <div className="flex items-center justify-center h-screen md:pt-6">
@@ -60,13 +60,13 @@ export default function WebBook() {
                 </HTMLFlipBook>
             </div>
 
-            {/* Info Navigasi */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 text-xs text-white px-4 py-2 rounded-full backdrop-blur z-20">
+            {/* Info Geser */}
+            <div className="absolute bottom-4 left-4 max-w-full w-fit bg-white/10 text-xs text-white px-4 py-2 rounded-full backdrop-blur z-20">
                 Klik kanan / kiri untuk membuka halaman
             </div>
 
             {/* Tombol Musik dan Fullscreen */}
-            <div className="absolute bottom-4 right-4 flex space-x-3 z-20">
+            <div className="absolute bottom-4 right-4 flex space-x-3 z-20 w-fit">
                 {/* Tombol Musik */}
                 <button
                     onClick={toggleMusic}
@@ -85,6 +85,7 @@ export default function WebBook() {
                     {isFullscreen ? <Minimize2 className="w-5 h-5" /> : <Maximize2 className="w-5 h-5" />}
                 </button>
             </div>
+
         </div>
     );
 }
