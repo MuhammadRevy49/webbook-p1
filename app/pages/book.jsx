@@ -52,11 +52,11 @@ export default function WebBook() {
                         alt="Cover Depan"
                         className="w-full h-full object-contain"
                     />
-                    <div className="bg-[#111] text-white p-4">📄 Halaman 1</div>
-                    <div className="bg-[#111] text-white p-4">📄 Halaman 2</div>
-                    <div className="bg-[#111] text-white p-4">📄 Halaman 3</div>
-                    <div className="bg-[#111] text-white p-4">📄 Halaman 4</div>
-                    <div className="bg-[#111] text-white p-4">📖 Cover Belakang</div>
+                    <div className="bg-[#000] text-white p-4">📄 Halaman 1</div>
+                    <div className="bg-[#000] text-white p-4">📄 Halaman 2</div>
+                    <div className="bg-[#000] text-white p-4">📄 Halaman 3</div>
+                    <div className="bg-[#000] text-white p-4">📄 Halaman 4</div>
+                    <div className="bg-[#000] text-white p-4">📖 Cover Belakang</div>
                 </HTMLFlipBook>
             </div>
 
