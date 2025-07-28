@@ -48,15 +48,60 @@ export default function WebBook() {
                     className="shadow-2xl"
                 >
                     <img
-                        src="cover/cover.png"
+                        src="cover/buku/1.png"
                         alt="Cover Depan"
                         className="w-full h-full object-contain"
                     />
-                    <div className="bg-[#222] text-white p-4">📄 Halaman 1</div>
-                    <div className="bg-[#505050] text-white p-4">📄 Halaman 2</div>
-                    <div className="bg-[#222] text-white p-4">📄 Halaman 3</div>
-                    <div className="bg-[#505050] text-white p-4">📄 Halaman 4</div>
-                    <div className="bg-[#222] text-white p-4">📖 Cover Belakang</div>
+                    <img
+                        src="cover/buku/2.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/3.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/4.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/5.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/6.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/7.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/8.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/9.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/10.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
+                    <img
+                        src="cover/buku/11.png"
+                        alt="Cover Depan"
+                        className="w-full h-full object-contain"
+                    />
                 </HTMLFlipBook>
             </div>
 
