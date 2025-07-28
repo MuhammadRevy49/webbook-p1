@@ -53,7 +53,7 @@ export default function WebBook() {
                         className="w-full h-full object-contain"
                     />
                     <img
-                        src="cover/buku/2.png"
+                        src="cover/buku/2-upt.png"
                         alt="Cover Depan"
                         className="w-full h-full object-contain"
                     />
