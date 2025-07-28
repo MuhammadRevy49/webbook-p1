@@ -13,8 +13,10 @@ export default function Navbar() {
         <>
             <nav className="absolute top-0 left-0 w-full p-4 flex items-center justify-between bg-[#111] backdrop-blur z-20">
                 <div className="flex items-center space-x-2">
-                    <Menu className="w-5 h-5 text-white" />
-                    <span className="text-sm font-semibold text-white">WebBook</span>
+                    <button className="p-1 text-white rounded hover:bg-[#333] hover:cursor-pointer transition-all"><Menu className="w-5 h-5"/></button>
+                    <span className="text-sm font-semibold text-white">
+                        Jejak Kekuatan
+                    </span>
                 </div>
             </nav>
         </>
