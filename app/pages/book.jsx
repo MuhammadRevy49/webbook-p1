@@ -8,6 +8,8 @@ export default function WebBook() {
     const bookRef = useRef(null);
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [isMusicOn, setIsMusicOn] = useState(false);
+    // Musik
+    const audioRef = useRef(null);
 
     const toggleFullscreen = () => {
         const elem = document.documentElement;
@@ -19,9 +21,17 @@ export default function WebBook() {
     };
 
     const toggleMusic = () => {
-        setIsMusicOn(!isMusicOn);
-        // Tambahkan audio play/pause logika di sini nanti
+        setIsMusicOn(prev => {
+            const newState = !prev;
+            if (newState) {
+                audioRef.current.play();
+            } else {
+                audioRef.current.pause();
+            }
+            return newState;
+        });
     };
+
 
     useEffect(() => {
         const onExit = () => setIsFullscreen(false);
@@ -130,6 +140,10 @@ export default function WebBook() {
                     {isFullscreen ? <Minimize2 className="w-5 h-5" /> : <Maximize2 className="w-5 h-5" />}
                 </button>
             </div>
+            <audio ref={audioRef} loop>
+                <source src="/musik/monolog.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
 
         </div>
     );
