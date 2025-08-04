@@ -43,7 +43,7 @@ export default function WebBook() {
         <div className="min-h-screen bg-[#111] text-white overflow-hidden relative">
 
             {/* Buku Flip */}
-            <div className="flex items-center justify-center h-screen md:pt-4 mt-10">
+            <div className="flex items-center justify-center h-screen md:pt-4 md:mt-10">
                 <HTMLFlipBook
                     ref={bookRef}
                     width={400}
