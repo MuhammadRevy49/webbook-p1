@@ -20,7 +20,7 @@ export default function Navbar() {
                 </div>
                 <div>
                     <a
-                        href="/file/buku.pdf"
+                        href="/file/ebook-overthinking.pdf"
                         download
                         className="bg-[#555] text-center text-white font-semibold px-3 py-2 rounded shadow hover:bg-gray-200 hover:text-black transition-all duration-200"
                     >
