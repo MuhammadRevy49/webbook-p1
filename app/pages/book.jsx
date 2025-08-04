@@ -112,16 +112,6 @@ export default function WebBook() {
                         alt="Cover Depan"
                         className="w-full h-full object-contain"
                     />
-                    <div className="w-full h-full flex items-center justify-center bg-[#111]">
-                        <a
-                            href="/file/buku.pdf"
-                            download
-                            className="bg-white text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition-all duration-200"
-                        >
-                            Download File PDF
-                        </a>
-                    </div>
-
                 </HTMLFlipBook>
             </div>
 
